@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Genesis: The Beginning</name>
+	<authors>
+		<li>Cruesoe</li>
+	</authors>
+	<packageId>cruesoe.genesisthebeginning</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>oskarpotocki.vfe.tribals</packageId>
+			<displayName>Vanilla Factions Expanded - Tribals</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3079786283</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>Adds "The Beginning", the Genesis starting scenario: two people with no memory and nothing to their name, alone in a world that's already old.
+
+Built on Vanilla Factions Expanded - Tribals' Wild Men scenario - the same faction, ideo culture lock and classic mode - cut down to two starting colonists aged 18-30, with no starting equipment, no forced health conditions and no periodic wild man incident.
+
+Intended to be played alongside the rest of the Genesis suite, but it works on its own.</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>oskarpotocki.vfe.tribals</li>
+		<li>cruesoe.genesiscore</li>
+	</loadAfter>
+</ModMetaData>

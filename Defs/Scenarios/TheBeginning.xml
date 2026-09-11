@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--
+    A copy of Vanilla Factions Expanded - Tribals' "Wild Men" scenario (see its
+    1.6/Defs/ScenarioDefs/Scenarios.xml): same VFET_WildMen faction and its ideo culture
+    lock/classic mode, restricted to two starting people (ages 18-30) instead of three, with
+    Genesis's own flavor text, no starting equipment, no forced health conditions, and no
+    periodic wild man incident.
+  -->
+  <ScenarioDef ParentName="ScenarioBase">
+    <defName>Genesis_TheBeginning</defName>
+    <label>The Beginning</label>
+    <description>They wake in a garden that isn't theirs, on a world that was old long before they arrived. Somewhere out there are settlements, roads, ruins - people with names for things they've never seen. None of that reaches here.\n\nThey remember nothing of before. No language but what they invent between themselves, no tools, no walls, no gate - nothing to say what waits past the treeline.\n\nEverything that will ever exist for them starts now.\n\nWarning: You start without the ability to do basic tasks, such as sowing, doctoring, and hunting - it is extremely difficult.</description>
+    <scenario>
+      <summary>Two people with no memory and nothing to their name, alone in a world that's already old.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>VFET_WildMen</factionDef>
+      </playerFaction>
+      <parts>
+
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnChoiceCount>5</pawnChoiceCount>
+          <pawnCount>2</pawnCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+        </li>
+        <li Class="ScenPart_PawnFilter_Age">
+          <def>PawnFilter_Age</def>
+          <allowedAgeRange>18~30</allowedAgeRange>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>220</count>
+          <allowRoofed>True</allowRoofed>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>They wake in a garden that isn't theirs, on a world that was old long before they arrived. Somewhere out there are settlements, roads, ruins - people with names for things they've never seen. None of that reaches here.\n\nThey remember nothing of before. No language but what they invent between themselves, no tools, no walls, no gate - nothing to say what waits past the treeline.\n\nEverything that will ever exist for them starts now.</text>
+          <closeSound>VFET_GameStartSting_WildMen</closeSound>
+        </li>
+
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>
