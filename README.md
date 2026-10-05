@@ -4,7 +4,7 @@
 
 Begin with two young people, no memories, no equipment, and almost no knowledge of how to survive.
 
-**The Beginning** is a challenging starting scenario for RimWorld 1.6, built on the Wild Men scenario from Vanilla Factions Expanded - Tribals. Your colonists arrive with nothing but one another and a small supply of scattered wood. From there, every skill, shelter, and scrap of civilization must be earned.
+**The Beginning** is a challenging starting scenario built on the Wild Men scenario from Vanilla Factions Expanded - Tribals. Your colonists arrive with nothing but one another and a small supply of scattered wood. From there, every skill, shelter, and scrap of civilization must be earned.
 
 ## The scenario
 
